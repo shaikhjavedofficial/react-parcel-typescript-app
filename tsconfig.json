@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["*", "src/*"]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext", // "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src", "setupTests.ts",
+    // "src/**/*", "src/global.d.ts","src/**/*.ts", "src/**/*.tsx"
+  ],
+  "exclude": ["./node_modules", "./public", "./build", "./.vscode"]
+}

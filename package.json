@@ -1,6 +1,6 @@
 {
-  "name": "React Parcel App",
-  "version": "0.1.0",
+  "name": "Crisp Template",
+  "version": "1.0.0",
   "private": true,
   "source": "public/index.html",
   "keywords": [],
@@ -22,6 +22,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
     "notistack": "^3.0.1",
     "parcel": "^2.12.0",
     "react": "^18.3.1",
@@ -106,5 +107,10 @@
       "nesting": true,
       "customMedia": true
     }
-  }
+  },
+  "parcel": {
+        "plugins": [
+            "./parcel-plugin-dotenv.js"
+        ]
+    }
 }

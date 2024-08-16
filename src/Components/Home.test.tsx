@@ -1,6 +1,6 @@
 import React from 'react';
 import { act, render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect';
+import '@testing-library/jest-dom';
 import Home from './Home';
 import { enqueNotistack } from '../Utils/enqueNotistack/enqueNotistack';
 import { Provider } from 'react-redux';

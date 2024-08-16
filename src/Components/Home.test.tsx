@@ -13,8 +13,8 @@ test('renders Home component and calls enqueNotistack on mount', () => {
   act(()=>{
   render( <Provider store={store}><Home /></Provider>);
 })
-const text = screen.getByText(/Parcel React App/i);
+const text = screen.getByText(/Welcome to Crisp/i);
   expect(text).toBeInTheDocument();
-  // Check if enqueNotistack is called
+
   expect(enqueNotistack).toHaveBeenCalled();
 });

@@ -8,9 +8,9 @@ componentDidMount(): void {
 }
   render() {
   return (
-    <Box justifyContent='center' alignItems='center' height='100vh' display='flex'>
-      <Typography variant='h3'>
-        Parcel React App
+    <Box justifyContent='center' position='relative' top='55vh' display='flex'>
+      <Typography variant='h3' color='white'>
+        Welcome to Crisp
       </Typography>
     </Box>
   );

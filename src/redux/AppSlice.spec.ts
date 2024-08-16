@@ -14,8 +14,6 @@ describe('AppStateSlice', () => {
   });
 
   it('should not accept invalid theme values', () => {
-    // This test ensures that invalid theme values are not accepted
-    // Uncommenting the line below should cause a TypeScript error
-    const invalidState = { theme: 'blue' }; // TypeScript error: 'blue' is not assignable to type '"light" | "dark"'
+    const invalidState = { theme: 'blue' };
   });
 });

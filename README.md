@@ -2,6 +2,11 @@
 # Created using react, parcel, typescript, redux
 ![Responsive Full Background Image](https://github.com/shaikhjavedofficial/react-parcel-typescript-app/blob/main/public/assets/crisp_bg.png)
 
+# Install:
+npx create-react-app my-app --template cra-template-crisp
+#or
+yarn create react-app my-app --template cra-template-crisp
+
 # Setup:
 1. start: npm start
 2. build: npm run build

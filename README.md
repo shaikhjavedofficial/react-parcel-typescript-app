@@ -4,7 +4,7 @@
 
 # Install:
 npx create-react-app my-app --template cra-template-crisp
-#or
+<br />
 yarn create react-app my-app --template cra-template-crisp
 
 # Setup:
